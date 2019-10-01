@@ -8,6 +8,8 @@
 
 You have to have __Node.js__ & __Yarn__ installed. You also need text editor, I'll recommend you __VS Code__.
 
+If you need help or ask any question, feel free to send me mail to <ondrej@sika.io>.
+
 ### Install on Mac
 
 Using [Brew](https://brew.sh)

@@ -39,6 +39,11 @@ choco install yarn
 choco install vscode
 ```
 
+## Example Project
+
+<https://github.com/ondrejsika/jsemnela>
+
+
 ## Setup Project
 
 ### Gitignore
@@ -71,33 +76,6 @@ max_line_length = null
 
 ```
 yarn init
-```
-
-### Setup Prettier
-
-Install
-
-```
-yarn add --dev prettier
-```
-
-Create `.prettierignore`
-
-```prettierignore
-node_modules/
-out/
-.next/
-```
-
-Add Prettier to `package.json` scripts
-
-```json
-...
-  "scripts": {
-    "prettier-check": "prettier -l '**/*.js'",
-    "prettier-write": "prettier --write '**/*.js'"
-  }
-...
 ```
 
 ## Install React & Next.js

@@ -310,7 +310,7 @@ After change in next config, we have to restart next server.
 Now web can use bootstrap (for css), because we work in react we also want react-bootstrap for (components):
 
 ```
-yarn install bootstrap react-bootstrap
+yarn add bootstrap react-bootstrap
 ```
 
 Now, we can import bootstrap css and use some react rootstrap compponents.

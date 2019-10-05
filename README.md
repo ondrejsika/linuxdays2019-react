@@ -438,7 +438,7 @@ We can create own Image component based on Bootstrap Image.
 We can create `./components/Image.js` with:
 
 ```js
-// component/Image.js
+// components/Image.js
 
 import React from "react";
 import Image from "react-bootstrap/Image";
@@ -466,7 +466,6 @@ import Head from "next/head";
 export default () => {
   return (
     <>
-      <p>
       <Head>
         <title>Contact me</title>
       </Head>
